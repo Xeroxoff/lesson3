@@ -10,16 +10,7 @@ int findMax(const std::vector<int>& nums) {
 }
 
 int main() {
-    int n;
-    std::cout << "Enter the number of elements: ";
-    std::cin >> n;
-
-    std::vector<int> nums(n);
-    std::cout << "Enter the elements: ";
-    for (int i = 0; i < n; ++i) {
-        std::cin >> nums[i];
-    }
-
+    std::vector<int> nums = {1, 2, 3, 4, 5};
     std::cout << "Maximum value: " << findMax(nums) << std::endl;
     return 0;
 }
